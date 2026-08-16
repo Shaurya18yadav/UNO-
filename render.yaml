@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: uno-backend
+    runtime: node
+    buildCommand: npm install && npm run build --workspace=server
+    startCommand: npm run start --workspace=server
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: DATABASE_SSL
+        value: true
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: EMAIL_ENCRYPTION_KEY
+        generateValue: true
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: DATABASE_URL
+        sync: false
