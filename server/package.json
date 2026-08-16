@@ -11,7 +11,7 @@
     "audit": "npm audit --omit=dev"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcryptjs": "^3.0.3",
     "cookie": "^1.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -25,7 +25,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
+    "@types/bcryptjs": "^3.0.0",
     "@types/cookie": "^0.6.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
