@@ -1,0 +1,25 @@
+{
+  "name": "UNO Multiplayer Codespace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "portsAttributes": {
+    "5173": {
+      "label": "UNO Game (Client)",
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    },
+    "3001": {
+      "label": "UNO API & Sockets (Server)",
+      "onAutoForward": "ignore",
+      "visibility": "public"
+    }
+  },
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
