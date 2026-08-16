@@ -2,7 +2,9 @@
 
 A mobile-first React/Tailwind client with an Express + Socket.io, server-authoritative UNO engine. It runs immediately with an in-memory development repository, and can use PostgreSQL/Supabase for accounts, stats, reports, and match history.
 
-# Click the Link to Play =>  https://ubiquitous-fortnight-jjwvxjpjrrvg2px7x-5173.app.github.dev/
+# Click the Link to Play
+
+=> https://ubiquitous-fortnight-jjwvxjpjrrvg2px7x-5173.app.github.dev/
 
 ## Structure
 
