@@ -11,6 +11,6 @@
     "secrets:scan": "git secrets --scan || (echo 'Install git-secrets before pushing.' && exit 1)"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^10.0.4"
   }
 }
